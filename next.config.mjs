@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export',
+const nextConfig = { 
+    images: {
+        loader: 'custom',
+        loaderFile: './my-loader.ts',
+    },
     images:{
         domains: ['images.unsplash.com']
     }

@@ -28,7 +28,8 @@ const FeaturedCourses = () => {
         </div>
         <div className="mt-6 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8">
              {featuredCourses.map((course)=>(
-                    <BackgroundGradient className='p-4 sm:p-6 flex-col rounded-[22px] dark:bg-zinc-900 overflow-hidden h-full'>
+                    <BackgroundGradient key={course.id}  //key prop
+                       className='p-4 sm:p-6 flex-col rounded-[22px] dark:bg-zinc-900 overflow-hidden h-full'>
                         <div className='items-center text-center flex-grow'>
                             <p className='lg:font-bold md:font-semibold text-lg sm:text-xl mt-2 mb-4 dark:text-neutral-200'>{course.title}</p>
                             <p className='font-extralight text-xl text-neutral-600 dark:text-neutral-400 flex-grow'>{course.description}</p>

@@ -3,7 +3,7 @@ import { div } from 'framer-motion/client'
 import React, { FormEvent, useState } from 'react'
 import { BackgroundBeams } from '@/components/ui/background-beams'
 
-const page = () => {
+const Page = () => {
   const [email,SetEmail] = useState("");
   const [message,SetMessage] = useState("");
 
@@ -43,4 +43,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -1,10 +1,9 @@
-import Image from "next/image";
+ 
 import HomePage from "@/components/HomePage"
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Quote from "@/components/Quote";
-import UpcomingWebinars from "@/components/UpcomingWebinars";
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import UpcomingWebinars from "@/components/UpcomingWebinars"; 
 import Instructors from "@/components/Instructors";
 import Footer from "@/components/Footer";
 
