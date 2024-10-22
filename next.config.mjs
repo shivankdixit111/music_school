@@ -5,7 +5,7 @@ const nextConfig = {
         loaderFile: './my-loader.ts',
     },
     images:{
-        domains: ['images.unsplash.com']
+        domains: ['images.unsplash.com',"/courses"]
     }
 };
 
